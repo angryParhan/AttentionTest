@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+
+body{
+    margin: 0;
+    padding: 0;
+    /*background: #222222;*/
+}
+
+
+.video-container {
+    margin-top: 1%;
+    position: relative;
+03
+    padding-bottom: 56.25%;
+04
+    padding-top: 30px;
+05
+    height: 0;
+06
+    overflow: hidden;
+07
+}
+08
+ 
+09
+.video-container iframe, 
+10
+.video-container object, 
+11
+.video-container embed {
+12
+    position: absolute;
+13
+    top: 0;
+14
+    left: 0;
+15
+    width: 100%;
+16
+    height: 100%;
+17
+}
+.mainQuest{
+    text-align: center;
+}
+.form{
+    margin-top: 2%;
+}
+form{
+    padding: 0 10%;
+
+}
+fieldset{
+    width: 40%;
+}
+.quest1{
+    float: left;
+}
+.quest2{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
