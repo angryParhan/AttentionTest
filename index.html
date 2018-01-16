@@ -8,22 +8,147 @@
 <body>
     <div align="center">  
         <div class="video-container">
-            <iframe  width="854" height="480" src="https://www.youtube.com/embed/imVlGxbHxEo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe  width="854" height="480" src="https://www.youtube.com/embed/imVlGxbHxEo" frameborder="0"  allowfullscreen></iframe>
         </div>
     </div>
-    <p class="mainQuest">Questions</p>
+    <h1 class="mainQuest">Questions:</h1>
     <div class="form" align="center">
         <form action="">
-            <fieldset class="quest1">
+            <fieldset class="area-left">
                 <legend>Лицо</legend>
-                lsdmksdmnksdmgklsdgm
-            </fieldset>
-            <fieldset class="quest2">
-                <legend>Аудио</legend>
-                lsdmvksdnvklsdvnlkdn
-            </fieldset>
+                <div class="field1">
+                    <p>-Мимика</p>
+                  <input type="radio" id="expressionChoice1"
+                   name="expression" value="email">
+                  <label for="expressionChoice1">брови сведены вместе, губы сжаты, уголки рта опущены</label><br>
+
+                  <input type="radio" id="expressionChoice2"
+                   name="expression" value="phone">
+                  <label for="expressionChoice2">нейтральное выражение</label><br>
+            
+                  <input type="radio" id="expressionChoice3"
+                   name="expression" value="mail">
+                  <label for="expressionChoice3">натянутая улыбка (уголки рта натянуты вбок, веки расслабленны), нейтральное выражение лица</label><br>
+                  
+                  <input type="radio" id="expressionChoice4"
+                   name="expression" value="mail">
+                  <label for="expressionChoice4">улыбка, широкая улыбка (одновременно натянуты уголки рта и век, щеки приподняты, морщинки в уголках глаз)</label><br>
+                  
+                  <input type="radio" id="expressionChoice5"
+                   name="expression" value="mail">
+                  <label for="expressionChoice5">натянутая улыбка (уголки рта натянуты вбок, веки расслабленны), нейтральное выражение лица</label><br>
+                </div>
+                <div class="field2">
+                    <p>-Эмоция</p>
+                    <input type="radio" id="emotionChoice1"
+                   name="emotion" value="mail">
+                  <label for="emotionChoice1">гнев, страх, отвращение</label><br>
+                  
+                  <input type="radio" id="emotionChoice2"
+                   name="emotion" value="mail">
+                  <label for="emotionChoice2">печаль</label><br>
+                  
+                  <input type="radio" id="emotionChoice3"
+                   name="emotion" value="mail">
+                  <label for="emotionChoice3">нейтральная</label><br>
+                  
+                  <input type="radio" id="emotionChoice4"
+                   name="emotion" value="mail">
+                  <label for="emotionChoice4">радость</label><br>
+                  
+                   <input type="radio" id="emotionChoice5"
+                   name="emotion" value="mail">
+                  <label for="emotionChoice5">гнев</label><br>
+                </div>
+                <div class="field3">
+                    <p>-Внимание</p>
+                    <input type="radio" id="attentionChoice1"
+                   name="attention" value="mail">
+                  <label for="attentionChoice1">голова опущена, взгляд направлен на собеседника</label><br>
+                  
+                  <input type="radio" id="attentionChoice2"
+                   name="attention" value="mail">
+                  <label for="attentionChoice2">голова опущена, бегающий или отрешенный взгляд</label><br>
+                  
+                  <input type="radio" id="attentionChoice3"
+                   name="attention" value="mail">
+                  <label for="attentionChoice3">голова держится ровно, бегающий или отрешенный взгляд </label><br>
+                  
+                  <input type="radio" id="attentionChoice4"
+                   name="attention" value="mail">
+                  <label for="attentionChoice4">голова приподнята, взгляд направлен на собеседника</label><br>
+                </div>
+          </fieldset>
+          <fieldset class="area-right">
+              <legend>Аудио</legend>
+              <div class="field-right1">
+                    <p>-Тон голоса</p>
+                    <input type="radio" id="voiceChoice1"
+                   name="voice" value="voiceThon1">
+                  <label for="voiceChoice1">высокий, дрожащий, возбужденный</label><br>
+                  
+                  <input type="radio" id="voiceChoice2"
+                   name="voice" value="mail">
+                  <label for="voiceChoice2">низкий, монотонный, напряженный </label><br>
+                  
+                  <input type="radio" id="voiceChoice3"
+                   name="voice" value="mail">
+                  <label for="voiceChoice3">умеренный, монотонный, спокойный</label><br>
+                  
+                  <input type="radio" id="voiceChoice4"
+                   name="voice" value="mail">
+                  <label for="voiceChoice4">очень высокий, возбужденный</label><br>
+                </div>
+                <div class="field-right2">
+                    <p>-Темп речи</p>
+                    <input type="radio" id="voiceTypeChoice1"
+                   name="voiceType" value="mail">
+                  <label for="voiceTypeChoice1">быстрый</label><br>
+                  
+                  <input type="radio" id="voiceTypeChoice2"
+                   name="voiceType" value="mail">
+                  <label for="voiceTypeChoice2">медленный</label><br>
+                  
+                  <input type="radio" id="voiceTypeChoice3"
+                   name="voiceType" value="mail">
+                  <label for="voiceTypeChoice3">умеренный</label><br>
+                  
+                  <input type="radio" id="voiceTypeChoice4"
+                   name="voiceType" value="mail">
+                  <label for="voiceTypeChoice4">умеренный, быстрый</label><br>
+                  
+                  <input type="radio" id="voiceTypeChoice5"
+                   name="voiceType" value="mail">
+                  <label for="voiceTypeChoice5">очень быстрый</label><br>
+                </div>
+                <div class="field-right3">
+                    <p>-Паузы</p>
+                    <input type="radio" id="pauseChoice1"
+                   name="pause" value="mail">
+                  <label for="pauseChoice1">короткие</label><br>
+                  
+                  <input type="radio" id="pauseChoice2"
+                   name="pause" value="mail">
+                  <label for="pauseChoice2">очень длинные</label><br>
+                  
+                  <input type="radio" id="pauseChoice3"
+                   name="pause" value="mail">
+                  <label for="pauseChoice3">длинные</label><br>
+                
+                </div>
+                <div class="field-right4">
+                    <p>-Слова</p>
+                    <input type="radio" id="wordsChoice1"
+                   name="words" value="mail">
+                  <label for="wordsChoice1">ужасно, кошмар, разочарован, жалоба</label><br>
+                  
+                  <input type="radio" id="wordsChoice2"
+                   name="words" value="mail">
+                  <label for="wordsChoice2">спасибо, благодарю, очень приятно, рад, понравилось </label>
+                </div>
+          </fieldset>    
             <div class="clear"></div>
-            <input type="submit" va></input>
+            <input type="submit" class="btn">
        </form>
     </div>
 </body>

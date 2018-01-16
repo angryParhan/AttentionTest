@@ -4,7 +4,7 @@
 body{
     margin: 0;
     padding: 0;
-    /*background: #222222;*/
+    background: url(https://webfon.top/wp-content/uploads/2016/11/tekstil-1.jpg) left top repeat;
 }
 
 
@@ -40,6 +40,7 @@ body{
 16
     height: 100%;
 17
+
 }
 .mainQuest{
     text-align: center;
@@ -54,13 +55,104 @@ form{
 fieldset{
     width: 40%;
 }
-.quest1{
-    float: left;
-}
-.quest2{
+.area-right{
     float: right;
 }
+.area-left{
+    float: left;
+}
+
+.field1, .field2, .field3, .field-right1, .field-right2, .field-right3, .field-right4{
+    text-align: left;
+    margin-bottom: 2%;
+}
+/*input:hover, label:hover{
+    cursor: pointer;
+}*/
 
 .clear{
     clear: both;
 }
+
+html {
+  font-family: sans-serif;
+}
+fieldset{
+    width: 40%;
+    float: left;
+    -webkit-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+    background: white;
+}
+
+.field1:nth-of-type(2), .field2:nth-of-type(2), .field3:nth-of-type(2), .field-right1:nth-of-type(2), .field-right2:nth-of-type(2), .field-right3:nth-of-type(2), .field-right4:nth-of-type(2) {
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+
+label {
+  margin-right: 15px;
+  line-height: 32px;
+}
+label:hover, input:hover{
+    cursor: pointer;
+}
+
+input:not(.btn) {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+}
+
+input:checked {
+  border: 6px solid black;
+}
+.btn,
+legend {
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 0;
+  border: 0;
+  font-size: 14px;
+}
+.btn:hover,
+.btn:focus {
+  color: #999;
+     -webkit-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: 0.5s all;
+    transform: scale(1.5);
+    animation-duration: 1s;
+}
+
+.btn:active {
+  background-color: white;
+  color: black;
+  outline: 1px solid black;
+}
+
+.btn{
+    margin: 3% 0;
+    width: 20%;
+    height: 30px;
+    
+}
+
+
