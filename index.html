@@ -14,36 +14,36 @@
     </div>
     <h1 class="mainQuest">Questions:</h1>
     <div class="form" align="center">
-        <form action="">
+        <form action="action.php" method="post">
             <fieldset class="area-left">
                 <legend>Лицо</legend>
                 <div class="field1">
                     <h2>Мимика:</h2>
                   <input type="radio" id="expressionChoice1"
-                   name="expression" value="email">
+                   name="expression" value="email" required>
                   <label for="expressionChoice1">брови сведены вместе, губы сжаты, уголки рта опущены</label><br>
 
                   <input type="radio" id="expressionChoice2"
-                   name="expression" value="phone">
+                   name="expression" value="phone" required>
                   <label for="expressionChoice2">нейтральное выражение</label><br>
             
                   <input type="radio" id="expressionChoice3"
-                   name="expression" value="mail">
+                   name="expression" value="mail" required>
                   <label for="expressionChoice3">натянутая улыбка (уголки рта натянуты вбок, веки расслабленны), нейтральное выражение лица</label><br>
                   
                   <input type="radio" id="expressionChoice4"
-                   name="expression" value="mail">
+                   name="expression" value="mail" required>
                   <label for="expressionChoice4">улыбка, широкая улыбка (одновременно натянуты уголки рта и век, щеки приподняты, морщинки в уголках глаз)</label><br>
             
                 </div>
                 <div class="field2">
                     <h2>Эмоция:</h2>
                     <input type="radio" id="emotionChoice1"
-                   name="emotion" value="mail">
+                   name="emotion" value="mail" required>
                   <label for="emotionChoice1">гнев, страх, отвращение</label><br>
                   
                   <input type="radio" id="emotionChoice2"
-                   name="emotion" value="mail">
+                   name="emotion" value="mail" required>
                   <label for="emotionChoice2">печаль</label><br>
                   
                   <input type="radio" id="emotionChoice3"
@@ -51,29 +51,29 @@
                   <label for="emotionChoice3">нейтральная</label><br>
                   
                   <input type="radio" id="emotionChoice4"
-                   name="emotion" value="mail">
+                   name="emotion" value="mail" required>
                   <label for="emotionChoice4">радость</label><br>
                   
                    <input type="radio" id="emotionChoice5"
-                   name="emotion" value="mail">
+                   name="emotion" value="mail" required>
                   <label for="emotionChoice5">гнев</label><br>
                 </div>
                 <div class="field3">
                     <h2>Внимание</h2>
                     <input type="radio" id="attentionChoice1"
-                   name="attention" value="mail">
+                   name="attention" value="mail" required>
                   <label for="attentionChoice1">голова опущена, взгляд направлен на собеседника</label><br>
                   
                   <input type="radio" id="attentionChoice2"
-                   name="attention" value="mail">
+                   name="attention" value="mail" required>
                   <label for="attentionChoice2">голова опущена, бегающий или отрешенный взгляд</label><br>
                   
                   <input type="radio" id="attentionChoice3"
-                   name="attention" value="mail">
+                   name="attention" value="mail" required>
                   <label for="attentionChoice3">голова держится ровно, бегающий или отрешенный взгляд </label><br>
                   
                   <input type="radio" id="attentionChoice4"
-                   name="attention" value="mail">
+                   name="attention" value="mail" required>
                   <label for="attentionChoice4">голова приподнята, взгляд направлен на собеседника</label><br>
                   
                 </div>
@@ -83,74 +83,74 @@
               <div class="field-right1">
                     <h2>Тон голоса:</h2>
                     <input type="radio" id="voiceChoice1"
-                   name="voice" value="voiceThon1">
+                   name="voice" value="voiceThon1" required>
                   <label for="voiceChoice1">высокий, дрожащий, возбужденный</label><br>
                   
                   <input type="radio" id="voiceChoice2"
-                   name="voice" value="mail">
+                   name="voice" value="mail" required>
                   <label for="voiceChoice2">низкий, монотонный, напряженный </label><br>
                   
                   <input type="radio" id="voiceChoice3"
-                   name="voice" value="mail">
+                   name="voice" value="mail" required>
                   <label for="voiceChoice3">умеренный, монотонный, спокойный</label><br>
                   
                   <input type="radio" id="voiceChoice4"
-                   name="voice" value="mail">
+                   name="voice" value="mail" required>
                   <label for="voiceChoice4">очень высокий, возбужденный</label><br>
                   
                   <input type="radio" id="voiceChoice5"
-                   name="attention" value="mail">
+                   name="voice" value="mail" required>
                   <label for="voiceChoice5">голова опущена, взгляд направлен на собеседника</label><br>
                 </div>
                 <div class="field-right2">
                     <h2>Темп речи:</h2>
                     <input type="radio" id="voiceTypeChoice1"
-                   name="voiceType" value="mail">
+                   name="voiceType" value="mail" required>
                   <label for="voiceTypeChoice1">быстрый</label><br>
                   
                   <input type="radio" id="voiceTypeChoice2"
-                   name="voiceType" value="mail">
+                   name="voiceType" value="mail" required>
                   <label for="voiceTypeChoice2">медленный</label><br>
                   
                   <input type="radio" id="voiceTypeChoice3"
-                   name="voiceType" value="mail">
+                   name="voiceType" value="mail" required>
                   <label for="voiceTypeChoice3">умеренный</label><br>
                   
                   <input type="radio" id="voiceTypeChoice4"
-                   name="voiceType" value="mail">
+                   name="voiceType" value="mail" required>
                   <label for="voiceTypeChoice4">умеренный, быстрый</label><br>
                   
                   <input type="radio" id="voiceTypeChoice5"
-                   name="voiceType" value="mail">
+                   name="voiceType" value="mail" required>
                   <label for="voiceTypeChoice5">очень быстрый</label><br>
                 </div>
                 <div class="field-right3">
                     <h2>Паузы:</h2>
                     <input type="radio" id="pauseChoice1"
-                   name="pause" value="mail">
+                   name="pause" value="mail" required>
                   <label for="pauseChoice1">короткие</label><br>
                   
                   <input type="radio" id="pauseChoice2"
-                   name="pause" value="mail">
+                   name="pause" value="mail" required>
                   <label for="pauseChoice2">очень длинные</label><br>
                   
                   <input type="radio" id="pauseChoice3"
-                   name="pause" value="mail">
+                   name="pause" value="mail" required>
                   <label for="pauseChoice3">длинные</label><br>
                   
                    <input type="radio" id="pauseChoice4"
-                   name="pause" value="mail">
+                   name="pause" value="mail" required>
                   <label for="pauseChoice4">короткие</label><br>
                 
                 </div>
                 <div class="field-right4">
                     <h2>Слова:</h2>
                     <input type="radio" id="wordsChoice1"
-                   name="words" value="mail">
+                   name="words" value="mail" required>
                   <label for="wordsChoice1">ужасно, кошмар, разочарован, жалоба</label><br>
                   
                   <input type="radio" id="wordsChoice2"
-                   name="words" value="mail">
+                   name="words" value="mail" required>
                   <label for="wordsChoice2">спасибо, благодарю, очень приятно, рад, понравилось </label>
                 </div>
           </fieldset>    
