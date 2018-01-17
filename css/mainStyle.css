@@ -7,12 +7,7 @@ body{
     background: url(https://webfon.top/wp-content/uploads/2016/11/tekstil-1.jpg) left top repeat;
 }
 
-@media (max-width: 320px){
-    .area-right{
-        float: left;
-        left: 0;
-    }
-}
+
 
 .video-container {
     margin-top: 1%;
@@ -50,16 +45,15 @@ body{
 }
 .mainQuest{
     text-align: center;
+    font-family:  sans-serif;
+    color: black;
+    
 }
 .form{
     margin-top: 2%;
 }
 form{
     padding: 0 10%;
-
-}
-fieldset{
-    width: 40%;
 }
 .area-right{
     float: right;
@@ -72,17 +66,13 @@ fieldset{
     text-align: left;
     margin-bottom: 2%;
 }
-/*input:hover, label:hover{
-    cursor: pointer;
-}*/
+
 
 .clear{
     clear: both;
 }
 
-html {
-  font-family: sans-serif;
-}
+
 fieldset{
     width: 40%;
     float: left;
@@ -91,6 +81,8 @@ fieldset{
     box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
     margin-bottom: 20px;
     background: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
 }
 
 .field1:nth-of-type(2), .field2:nth-of-type(2), .field3:nth-of-type(2), .field-right1:nth-of-type(2), .field-right2:nth-of-type(2), .field-right3:nth-of-type(2), .field-right4:nth-of-type(2) {
@@ -110,16 +102,13 @@ input:not(.btn) {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-
   border-radius: 50%;
   width: 16px;
   height: 16px;
-
   border: 2px solid #999;
   transition: 0.2s all linear;
   outline: none;
   margin-right: 5px;
-
   position: relative;
   top: 4px;
 }
@@ -138,10 +127,6 @@ legend {
 }
 .btn:hover,
 .btn:focus {
-  color: #999;
-     -webkit-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
     cursor: pointer;
     transition: 0.5s all;
     transform: scale(1.5);
@@ -158,10 +143,21 @@ legend {
     margin: 3% 0;
     width: 20%;
     height: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    -webkit-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
     
 }
 .area-left  div:not(:last-of-type), .area-right  div:not(:last-of-type){
     border-bottom: 1px dashed gray;
 }
-
-
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+legend{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
